@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item android:id="@+id/search2"
+        android:title="Klik Camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/search3"
+        android:title="Klik Me"
+        app:showAsAction="collapseActionView"/>
+</menu>

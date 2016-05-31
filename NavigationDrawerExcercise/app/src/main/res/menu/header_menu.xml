@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Home"/>
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="Setting"/>
+        <item android:title="Planets">
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mercury"
+                    android:title="Mercury"/>
+                <item
+                    android:id="@+id/venus"
+                    android:title="Venus"/>
+                <item
+                    android:id="@+id/earth"
+                    android:title="Earth"/>
+                <item
+                    android:id="@+id/mars"
+                    android:title="Mars"/>
+                <item
+                    android:id="@+id/jupiter"
+                    android:title="Jupiter"/>
+                <item
+                    android:id="@+id/saturn"
+                    android:title="Saturn"/>
+                <item
+                    android:id="@+id/uranus"
+                    android:title="Uranus"/>
+                <item
+                    android:id="@+id/neptune"
+                    android:title="Neptune"/>
+                </group>
+            </menu>
+        </item>
+
+    </group>
+</menu>

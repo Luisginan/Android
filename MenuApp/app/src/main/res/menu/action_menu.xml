@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_one"
+        app:showAsAction="ifRoom"
+        android:title="@string/item1"
+        android:onClick="itemOneClick"/>
+    <item
+        android:id="@+id/menu_item_two"
+        app:showAsAction="ifRoom"
+        android:title="@string/item2"/>
+    <item
+        android:id="@+id/menu_item_three"
+        app:showAsAction="never|collapseActionView"
+        android:title="@string/item3"/>
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/group_item_one"
+            app:showAsAction="never|collapseActionView"
+            android:title="@string/group1"/>
+        <item
+            android:id="@+id/group_item_two"
+            app:showAsAction="never|collapseActionView"
+            android:title="@string/group2"/>
+    </group>
+    <item
+        android:id="@+id/menu_item_four"
+        app:showAsAction="ifRoom"
+        android:title="@string/item4">
+        <menu>
+            <item
+                android:id="@+id/nested_one"
+                app:showAsAction="ifRoom"
+                android:title="@string/nested1"/>
+            <item
+                android:id="@+id/nested_two"
+                app:showAsAction="ifRoom"
+                android:title="@string/nested2"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Listview and GridView"
+        android:id="@+id/tvTitle"
+        android:textSize="35dp"
+        android:textColor="#FFA200"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example"
+        android:id="@+id/tvTitle2"
+        android:textSize="30dp"
+        android:textColor="#FFA200"
+        android:layout_below="@+id/tvTitle"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pilih salah satu :"
+        android:id="@+id/tvPilih"
+        android:layout_below="@+id/tvTitle2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="95dp" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/tvPilih"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

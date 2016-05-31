@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ListView Exercise</string>
+
+    <string-array name="animals_name">
+        <item name="Sapi"></item>
+        <item name="Gajah"></item>
+        <item name="Rubah"></item>
+        <item name="Jerapah"></item>
+        <item name="Singa"></item>
+        <item name="Parkit"></item>
+        <item name="Pinguin"></item>
+        <item name="Pinguin"></item>
+        <item name="Kelinci"></item>
+        <item name="Badak"></item>
+        <item name="Tupai"></item>
+        <item name="Zebra"></item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="testing">
+    <PreferenceCategory
+        android:title="@string/pref_category"
+        android:key="pref_key_firstCategory">
+        <CheckBoxPreference
+            android:key="pref_checkbox"
+            android:title="@string/pref_check_title"
+            android:summary="@string/pref_check_summ"
+             />
+
+        <ListPreference
+            android:dependency="pref_checkbox"
+            android:key="pref_list"
+            android:summary="Choose Item List"
+            android:title="@string/pref_list"
+            android:dialogTitle="@string/pref_list"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:defaultValue="@string/pref_list_default_value" />
+
+        <EditTextPreference
+            android:summary="Type your name here .."
+            android:title="View Text"
+            android:key="pref_edit_text"/>
+
+        <RingtonePreference
+            android:title="Ringtones"
+            android:key="pref_ringtones"
+            android:summary="Select Ringtone here"
+            android:ringtoneType="all"/>
+
+        <MultiSelectListPreference
+            android:key="pref_multilist"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:dialogTitle="Multiple Select Item"
+            android:summary="multi item can selected"
+            android:title="MultiSelectedList"
+            />
+
+        <SwitchPreference
+            android:key="pref_switch"
+            android:title="Switched"
+            android:summary="On/Off Switch"
+            android:defaultValue="true"/>
+
+        <Preference android:title="@string/prefs_web_page" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://google.com" />
+        </Preference>
+
+    </PreferenceCategory>
+    <PreferenceScreen
+        android:key="button_voicemail_category_key"
+        android:title="@string/voicemail"
+        android:persistent="true"
+        android:summary="Klik here for Next Screen">
+        <CheckBoxPreference
+            android:key="pref_checkbox2"
+            android:title="@string/pref_check_title"
+            android:summary="@string/pref_check_summ"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="pref_list2"
+            android:title="@string/pref_list"
+            android:dialogTitle="@string/pref_list"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:defaultValue="@string/pref_list_default_value" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

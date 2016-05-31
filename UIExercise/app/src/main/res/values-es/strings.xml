@@ -1,0 +1,7 @@
+	<resources>
+    <string name="app_name">UI Exercise</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Bienvenido, amigo !</string>
+    <string name="please_select">Por favor, seleccione un artículo:</string>
+
+</resources>

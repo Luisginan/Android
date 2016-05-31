@@ -1,0 +1,62 @@
+================================================================================================================================================================================================
+
+Steps to create group using GCM :
+
+App Name       : Push Notification Exercise
+Package Name   : bintang.id.pushnotificationexercise
+Server API Key : AIzaSyCXM7I0s_lxKjQN_3xFtFfETX0YBqr5pj4
+Sender ID      : 337458261153
+================================================================================================================================================================================================
+1. https://android.googleapis.com/gcm/notification
+Content-Type:application/json
+Authorization:key=AIzaSyCXM7I0s_lxKjQN_3xFtFfETX0YBqr5pj4
+project_id:337458261153 
+
+{
+   "operation": "create",
+   "notification_key_name": "pushTest",
+   "registration_ids": ["APA91bEUY7WYPf9gCbkPccCwO29kPxyla5skCwrYP4NyuaFqSXZ6uvki5dXOlUSm7acfc1Zs6WAZfbKzY0QE9JJaaGDrZiUKpEU5eURz-D1FWgpJ1wNceXriW5tYK7Y5rFW6WDvnWH3yD6b4xlY4l6dQ6HmnvZrrPA", 
+                        "APA91bGAB5UnypmHoKv3RbriwBvB5Hvz39qgVhnwWd6tlvZhT6rekLzefeX84-CaBbB1_2tqKgzx5L8i1rCH5mIcjihFgXYPhIUZ00kR7IIOMv-zKD3mEYVVY58DOZSsw6MGkb7iJrAWjBgfbkLbPlNB5mhfV13uBg"
+                       ]
+}
+
+then, we got the notification key = APA91bE5plvHqqTpgROj2wplquQvM7M5W2pYjeOjTJq0BLJTrGSEUx73KrGL5Vr2XXERtiG0xb257Ff4acAwAOc92Yd49Nk3_X_E5sp0wt7Nl8DUwDhprVA
+
+================================================================================================================================================================================================
+
+2.After that, we got the notification key which is unique. We are going to use this key as an address
+to send notification direcly to all member that already registered before. In case of increasing number
+of registered id, we only have to use "add" in "operation" section.
+
+================================================================================================================================================================================================
+
+3. Now we need to send notification using POST method. Google said this with Downstream messages.
+mention on section "to", the address key is notification key which already got above.
+
+https://gcm-http.googleapis.com/gcm/send
+Content-Type:application/json
+Authorization:key=AIzaSyZ-1u...0GBYzPu7Udno5aA
+
+{ "data": {
+    "message":"BANGUN WOI, KERJA !!! :D "
+  },
+  "to" : "APA91bE5plvHqqTpgROj2wplquQvM7M5W2pYjeOjTJq0BLJTrGSEUx73KrGL5Vr2XXERtiG0xb257Ff4acAwAOc92Yd49Nk3_X_E5sp0wt7Nl8DUwDhprVA"
+}
+
+
+if succeed, the result will show the result :
+{
+    "success": 4,
+    "failure": 0
+}
+
+and if there not all notification succeed, it will show result like :
+{
+  "success":1,
+  "failure":2,
+  "failed_registration_ids":[
+     "regId1",
+     "regId2"
+  ]
+}
+================================================================================================================================================================================================

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.jati.animationexcercise.AdvertiseFragment"
+    android:id="@+id/root"
+    android:background="@color/colorAccent"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/imageView1"
+        android:src="@drawable/advertise1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view"
+        android:text="Fragment Adv ...."/>
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Permissions</string>
+    <string name="title">Android Permission List</string>
+    <string name="tvSelector">Please select your permissions category :</string>
+    <string name="PERMISSION_INFORMATION">Permission Information</string>
+    <string name="PERMISSION_ALREADY_GRANTED">The Permission already granted</string>
+    <string name="PERMISSION_GRANTED">Permission Granted</string>
+    <string name="PERMISSION_DENIED">Permission Denied</string>
+    <string name="PERMISSION_NEED_TO_BE_GRANTED">This app needs permission</string>
+    <string name="PERMISSION_OK"></string>
+</resources>
+
+

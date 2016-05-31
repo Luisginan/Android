@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShareToSocialMediaApp</string>
+    <string name="action_search">searching ...</string>
+    <string name="google_plus">Google Plus</string>
+    <string name="facebook">Facebook</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <string name="send">Share Text</string>
+    <string name="message">Message</string>
+    <string name="subject">Subject</string>
+    <string name="to">To</string>
+    <string name="btn_share">Share Single Image</string>
+    <string name="btn_share2">Share Multiple Image</string>
+</resources>

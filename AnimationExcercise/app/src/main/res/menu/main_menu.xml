@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_property"
+        android:title="Property Animation"/>
+    <item
+        android:id="@+id/menu_view"
+        android:title="View Animation">
+        <menu>
+            <item
+                android:title="Frame by Frame (Drawable Animation)"
+                android:id="@+id/menu_frame"/>
+            <item
+                android:title="Tween Animation"
+                android:id="@+id/menu_tween"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_fragment_anim"
+        android:title="Fragment Animation"/>
+    <item
+        android:id="@+id/menu_animation_listener"
+        android:title="Sample Animation Listener" />
+</menu>

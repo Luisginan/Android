@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_fb"
+        android:showAsAction="never|collapseActionView"
+        android:title="Facebook Share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/menu_item_twiter"
+        android:showAsAction="never|collapseActionView"
+        android:title="Twiter Share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/menu_item_share"
+        android:showAsAction="never|collapseActionView"
+        android:title="Share to Other App"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+</menu>

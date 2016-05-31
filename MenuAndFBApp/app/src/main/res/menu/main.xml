@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_shareImage"
+        android:showAsAction="never|collapseActionView"
+        android:title="Share Image"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/menu_item_shareText"
+        android:showAsAction="never|collapseActionView"
+        android:title="Share Text"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+</menu>

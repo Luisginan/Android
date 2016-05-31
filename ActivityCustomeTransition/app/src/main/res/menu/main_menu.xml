@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/second_activity"
+        app:showAsAction="never|collapseActionView"
+        android:title="Second Activity"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/third_activity"
+        app:showAsAction="never|collapseActionView"
+        android:title="Third Activity"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+    <item
+        android:id="@+id/fourth_activity"
+        app:showAsAction="never|collapseActionView"
+        android:title="Fourth Activity - Scale"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/five_activity"
+        app:showAsAction="never|collapseActionView"
+        android:title="Five Activity - Rotate"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/six_activity"
+        app:showAsAction = "never|collapseActionView"
+        android:title="Six Activity - Pull Top"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider" />
+</menu>

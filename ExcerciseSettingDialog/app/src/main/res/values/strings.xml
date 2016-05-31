@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExcerciseSettingDialog</string>
+
+    <string name="pref_check_title">Setting List</string>
+    <string name="pref_check_summ">Setting List enable or disable</string>
+
+    <string name="pref_list">List Preference</string>
+    <string name="pref_list_default_value">4</string>
+    <string name="pref_category">First Category </string>
+    <string name="pref_category2">Second Category </string>
+    <string name="voicemail">Sub Screen </string>
+
+    <string name="prefs_summ_category_one">Summary category 1</string>
+    <string name="prefs_summ_category_two">Summary category 2</string>
+    <string name="prefs_web_page">Go to Google</string>
+</resources>

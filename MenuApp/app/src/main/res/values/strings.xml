@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+
+    <string name="item1">ACB single View</string>
+    <string name="item2">ACB multi view</string>
+    <string name="item3">Item 3</string>
+    <string name="item4">Item 4</string>
+    <string name="group1">Group 1</string>
+    <string name="group2">Group 2</string>
+    <string name="nested1">Nested item menu 1</string>
+    <string name="nested2">Nested item menu 2</string>
+
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>

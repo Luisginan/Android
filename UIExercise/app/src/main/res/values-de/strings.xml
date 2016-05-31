@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UI Exercise</string>
+    <string name="action_settings">Settings</string>
+	<string name="welcome">willkommen, Kumpel !</string>
+    <string name="please_select">Bitte wählen Sie ein Element:</string>
+
+    <!-- ############### String for Array Adapter ###############-->
+    <string-array name="planets">
+        <item>++Wählen Planet++</item>
+        <item>Quecksilber</item>
+        <item>Venus</item>
+        <item>Erde</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptun</item>
+        <item>Pluto</item>
+    </string-array>
+    <!-- ############### String for Array Adapter ###############-->
+</resources>

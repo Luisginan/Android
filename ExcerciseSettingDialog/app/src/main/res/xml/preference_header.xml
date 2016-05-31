@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="id.jati.excercisesettingdialog.SettingsFragment"
+        android:title="@string/pref_category"
+        android:summary="@string/prefs_summ_category_one"
+        android:icon="@drawable/ic_launcher">
+    <extra android:name="settings" android:value="notifications" />
+    </header>
+    <header
+        android:fragment="id.jati.excercisesettingdialog.SettingsFragment"
+        android:title="@string/pref_category2"
+        android:summary="@string/prefs_summ_category_two"
+        android:icon="@drawable/setting">
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra android:name="settings" android:value="sync" />
+    </header>
+</preference-headers>

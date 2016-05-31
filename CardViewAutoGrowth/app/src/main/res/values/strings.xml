@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Card View AutoGrowth</string>
+
+    <string name="hidenlist">Hide List View</string>
+    <string name="showlist">Show List View</string>
+
+    <string-array name="android">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+    </string-array>
+</resources>

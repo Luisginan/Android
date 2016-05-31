@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_other"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Other Menu"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/second_activity"
+        android:title="Drawer using Navigation View"/>
+</menu>

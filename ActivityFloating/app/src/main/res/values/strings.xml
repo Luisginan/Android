@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityFloating</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_popup">Popup</string>
+</resources>

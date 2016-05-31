@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activity Exercise</string>
+    <string-array name="options">
+        <item>-- Choose --</item>
+        <item>Pass Value</item>
+        <item>Pass Object Model</item>
+    </string-array>
+    <string name="note">This choice will send value = nik:12345, name:Binz Cool, division:developer as hardcoded text to send in order
+    to show does object data sent or not</string>
+</resources>

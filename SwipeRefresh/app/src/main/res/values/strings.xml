@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Swipe Refresh</string>
+    <string-array name="Berhitung">
+        <item>satu</item>
+        <item>dua</item>
+        <item>tiga</item>
+    </string-array>
+</resources>

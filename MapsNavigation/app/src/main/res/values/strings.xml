@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Maps Navigation</string>
+    <string name="googleMap_key">AIzaSyBBmrrFnyad0pb_ruQZdkAouz6ZBGkfoIQ</string>
+    <string name="action_settings">Settings</string>
+    <string name="starting_point">Starting Point</string>
+    <string name="starting_point_snippet">This is your starting point</string>
+    <string name="btn_get_direction">Get Direction</string>
+    <string name="btn_reset">Reset</string>
+</resources>
